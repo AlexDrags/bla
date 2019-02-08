@@ -5,8 +5,9 @@
 
 .container {
 	display: grid;
+	justify-content: center;
 	grid-template-columns:5px 195px 195px 195px 195px 195px 195px 5px;
-	grid-template-rows:400px 50px 50px auto;
+	grid-template-rows:400px 50px 50px auto auto;
 }
 
 .header {
@@ -37,7 +38,7 @@
 }
 
 .nav {
-	min-width: 1170px;
+	min-width: 1150px;
 	border: 2px solid black;
 	border-radius: 5px;
 	grid-column-start: 2;
@@ -128,4 +129,26 @@ h2 {
 	width: 190px;
 	height: 100px;
 	margin-bottom: 20px;
+}
+
+footer {
+	display: flex;
+	min-width: 1170px;
+	padding: 10px;
+	justify-content: space-between;
+	grid-row-start: 5;
+	grid-row-end: -1;
+	grid-column-start: 1;
+	grid-column-end: -1;
+}
+
+footer aside {
+	border: 2px solid black;
+	border-radius: 5px
+}
+
+footer img {
+	float: left;
+	width: 40px;
+	height: 40px;
 }
