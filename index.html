@@ -1,84 +1,228 @@
+<!--
+	картку в модальное окно 
+	таблицу эмалей тоже
+	социалку на вконтакте
+	подумать над фоном и прозрачностью блоков
+	нужен блок про сам магазин и наличие расходников
+	посмотреть реальных фоток может сделать галерею
+-->
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+<head class="page">
 	<meta charset="UTF-8">
+	<link rel="icon" href="http://www.xn----7sbbi0b2ajjm.xn--p1ai/wp-content/uploads/2018/04/cropped-вектор-краски-я-пу-ьверизатора-40119792-1-32x32.jpg" sizes="32x32">
+	<link rel="icon" href="http://www.xn----7sbbi0b2ajjm.xn--p1ai/wp-content/uploads/2018/04/cropped-вектор-краски-я-пу-ьверизатора-40119792-1-192x192.jpg" sizes="192x192">
+	<meta name="description" content="Кузовной ремонт автомобиля, Ремонт бампера, Подбор цвета, Покраска авто, Продажа ЛКМ, Полировка фар в Кировском районе С-Пб... - Устранение повреждений после ДТП; - Восстановление геометрии кузова; - Удаление коррозии на деталях а\м; - Замена любых элементов кузова;
+	- Ремонт и восстановление пластиковых деталей кузова (бамперов, накладок, молдингов);- Полная покраска авто, частичная по элементам, локальная покраска части элемента">
+	<meta name="keywords" content="Ремонт бампера Кировский район СПб, Покраска авто кировский район СПб, Кузовной ремонт автомобиля в СПб Кировский район, Кузовные работы Кировский район, Полировка фар Кировский район, Кузовной ремонт, Покраска авто, Кировский район, Удаление коррозии, Геометрия кузова, Ремонт бампера, Подбор цвета, Покраска, Полировка, Продажа ЛКМ">
 	<title>КРАС-АВТО.РФ</title>
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-	<link rel="shortcut icon" href="assets/img/audi.png" type="image/x-icon">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<!--<link rel="stylesheet" href="assets/css/style.css">-->
 </head>
-<body class="container">
-	<div class="header">
-		<h1><img src="assets/img/mask.png" alt="">КРАС-АВТО.РФ</h1>
-		<div class="logoimg"></div>
-	</div>
-	<div class="nav">
-		<img src="assets/img/menuico.png" alt="">
-		<a href="#">ГЛАВНАЯ</a>
-		<a href="#">КОНТАКТЫ</a>
-		<a href="#">WLOG</a>
-	</div>
-	
-		<h2>СПЕКТР НАШИХ УСЛУГ:</h2>
+<body class="page__body">
 
-		<article class="service-item">
-		<img src="assets/img/1.png" alt="">	
-		<h3>Кузовной ремонт</h3>
-		<p>→ Удаление вмятин;<br>
-		→ Устранение царапин, трещин, глубоких вмятин;<br>
-		→ Выравнивание поверхности, грунтовка, подготовка под покраску;<br>
-		→ Антикоррозийная обработка кузова;</p>
-		</article>
+	<header class="page-header">
 
-		<article class="service-item">
-		<img src="assets/img/2.png" alt="">
-		<h3>Ремонт бампера</h3>
-		<p>→ Ремонт бампера, крыла, двери, боковин, стоек, порогов, крышек багажника и других элементов кузова авто</p>
-		</article>
+		<a class="page-header__logo" href="index.html">
+			<img src="assets/img/mask.png" alt="картинка распираторной малярной маски" width="48" height="48">
+		</a>
 
-		<article class="service-item">
-		<img src="assets/img/3.png" alt="">	
-		<h3>Подбор цвета</h3>
-		<p>→ Вы можете подъехать на вашем автомобиле или привезти образец необходимого цвета — и в течение 30 минут наши специалисты подберут точный оттенок и подготовят необходимое вам количество краски </p>
-		</article>
-
-		<article class="service-item">
-		<img src="assets/img/4.png" alt="">
-		<h3>Покраска</h3>
-		<p>→ Полная покраска кузова автомобиля;<br>
-		→ Частичная покраска кузова автомобиля;<br>
-		→ Покраска отдельных элементов кузова;<br>
-		→ Устранение мелких дефектов(сколов,трещин лакокрасочного покрытия)</p>
-		</article>
-
-		<article class="service-item">
-		<img src="assets/img/5.png" alt="">
-		<h3>Полировка</h3>
-		<p>→ Мы используем специальные полировачные средства. Основой служит воск и синтетические материалы. Полировка защитит от неблагоприятных воздействий, микроповреждений ЛКП и сохранит насыщенны цвет краски намного дольше</p>
-		</article>
-
-		<article class="service-item">
-		<img src="assets/img/6.png" alt="">
-		<h3>Продажа ЛКМ</h3>
-		<p>→ В нашей лаборатории вы всегда можете приобрести любое необходимое вам количество краски. Минимальный заказ составляет всего 10 грамм, а значит вам никогда не придется переплачивать за лишние материалы. Также Мы всегда будем рады предоставить приятную скидку</p>
-		</article>
-
-		<footer>
+		<p class="page-header__logo-name">
+			<h1 class="page-header__title">КРАС-АВТО.РФ</h1>
+		</p>
 			
-			<aside><img src="assets/img/bras.png" alt=""><p>Кузовной ремонт, покраска, полировка: <span>+7 911 953-85-48</span></p></aside>
-			<aside><img src="assets/img/paint.png" alt="">Подбор цвета, продажа ЛКМ: <span>+7 911 841-93-96</span></aside>
-			<aside>
-				<img src="assets/img/alarm.png" alt="">
-				Режим работы: Пн-Пт:<span>09:00-19:00;</span>
-				Сб:<span>09:00-18:00</span>
-			</aside>	
-			<aside>	
-				<img src="assets/img/geo.png" alt="">
-				Адрес:С-Пб, Кировский р-н, ул. Возрождения д.35
-				E-mail: kras-avtovo@yandex.ru
-			</aside>
+		
+		<nav class="page-header__nav nav-top">
+			
+			<img class="nav-top__icon" src="assets/img/menuico.png" alt="иконка основного меню" width="48" height="48">
+			
+			<ul class="nav-top__list">
+				<li class="nav-top__list__item">
+					<a href="index.html">Главная</a>
+				</li>
+				<li class="nav-top__list__item">
+					<a href="#contacts">Контакты</a>
+				</li>
+				<li class="nav-top__list__item">
+					<a href="#">Таблица цветов</a>
+				</li>
+			</ul>	
+		</nav>
+		
+	</header>
+	<main class="page-main">
 
-		</footer>
+		<h2 class="page-main__title">СПЕКТР НАШИХ УСЛУГ:</h2>
+
+		<article class="page-main__item service-item">
+
+			<figure class="service-item__img">
+				<figcaption class="service-item__title">Ремонт элементов</figcaption>
+				<img src="assets/img/2.png" alt="изображение загрунтованого бампера" width="190" height="100">
+			</figure>
+
+			<ul class="service-item__list">
+				<li class="service-item__list__description">
+					<p>
+						→ Ремонт бампера, крыла, двери, боковин, стоек, 
+						порогов, крышек багажника и других элементов кузова авто;
+					</p>
+				</li>
+			</ul>
+
+		</article>
+
+		<article class="page-main__item service-item">
+
+			<figure class="service-item__img">
+				<figcaption class="service-item__title">Кузовной ремонт</figcaption>
+				<img src="assets/img/1.png" alt="изображение работ по каркасу кузова" width="190" height="100">	
+			</figure>
+
+			<ul class="service-item__list">
+
+				<li class="service-item__list__description">
+					<p>→ Удаление вмятин;</p>
+				</li>
+				<li class="service-item__list__description">
+					<p>→ Устранение царапин, трещин, глубоких вмятин;</p>
+				</li>
+				<li class="service-item__list__description">
+					<p>
+						→ Выравнивание поверхности, грунтовка, 
+						подготовка под покраску;
+					</p>
+				</li>
+				<li class="service-item__list__description">
+					<p>→ Антикоррозийная обработка кузова;</p>
+				</li>
+			</ul>
+
+		</article>
+
+		<article class="page-main__item service-item">
+
+			<figure class="service-item__img">
+				<figcaption class="service-item__title">Подбор цвета опытным колористом</figcaption>
+				<img src="assets/img/3.png" alt="изображение карточек с выбором цвета" width="190" height="100">	
+			</figure>
+
+			<ul class="service-item__list">
+				<li class="service-item__list__description">
+					<p>
+						→ Вы можете подъехать на вашем автомобиле или привезти образец 
+						необходимого цвета — и в течение 30 минут наши специалисты 
+						подберут точный оттенок и подготовят необходимое вам количество 
+						краски;
+					</p>
+				</li>	
+			</ul>
+		</article>
+
+		<article class="page-main__item service-item">
+
+			<figure class="service-item__img">
+				<figcaption class="service-item__title">Покраска</figcaption>
+				<img src="assets/img/4.png" alt="изображение процесса покраски кузова" width="190" height="100">
+			</figure>
+			
+			<ul class="service-item__list">
+				<li class="service-item__list__description">
+					<p>→ Полная покраска кузова автомобиля;</p>
+				</li>
+				<li class="service-item__list__description">
+					<p>→ Частичная покраска кузова автомобиля;</p>
+				</li>
+				<li class="service-item__list__description">
+					<p>→ Покраска отдельных элементов кузова;</p>
+				</li>
+				<li class="service-item__list__description">
+					<p  >→ Устранение мелких дефектов(сколов,трещин 
+						лакокрасочного покрытия);</p>
+				</li>
+			</ul>
+		
+		</article>
+
+		<article class="page-main__item service-item">
+
+			<figure class="service-item__img">
+				<figcaption class="service-item__title">Полировка</figcaption>	
+				<img src="assets/img/5.png" alt="изображение полировальная машинка в работе" width="190" height="100">
+			</figure>
+			<ul class="service-item__list">
+				<li class="service-item__list__description">
+					<p>
+						→ Мы используем специальные полировачные средства. 
+						Основой служит воск и синтетические материалы. Полировка 
+						защитит от неблагоприятных воздействий, микроповреждений 
+						ЛКП и сохранит насыщенны цвет краски намного дольше;
+					</p>
+				</li>
+			</ul>
+		</article>
+
+		<article class="page-main__item service-item">
+
+			<figure class="service-item__img">
+				<figcaption class="service-item__title">Продажа ЛКМ, абразивных кругов, и много другое</figcaption>
+				<img src="assets/img/6.png" alt="изображение банок с красками" width="190" height="100">
+			</figure>
+
+			<ul class="service-item__list">
+				<li class="service-item__list__description">
+					<p>
+						→ В нашей лаборатории вы всегда можете приобрести любое 
+						необходимое вам количество краски. Минимальный заказ 
+						составляет всего 10 грамм, а значит вам никогда не придется 
+						переплачивать за лишние материалы. Также Мы всегда будем рады 
+						предоставить приятную скидку;
+					</p>
+				</li>
+			</ul>
+		</article>
+		
+	</main>
+
+	<footer class="page-footer" id="contacts">
+			
+		<aside>
+			<img src="assets/img/bras.png" alt="иконка кисточки" width="40" height="40">
+			<p>
+				Кузовной ремонт, покраска, полировка
+			</p>
+			<a href="tel:+79119538548">Тел: +7 911 953-85-48</a>
+		</aside>
+
+		<aside>
+			<img src="assets/img/paint.png" alt="иконка баночки краски" width="40" height="40">
+			<p>
+			Подбор цвета, продажа ЛКМ: 
+			</p>
+			<a href="tel:+79118419396">Тел: +7 911 841-93-96</a>
+		</aside>
+
+		<aside>
+			<img src="assets/img/alarm.png" alt=" иконка будильника" width="40" height="40">
+			<p>
+				Режим работы: 
+				<date>Пн-Пт:</date><time>09:00-19:00;</time>
+				<date>Сб:</date><time>09:00-18:00</time>
+			</p>
+		</aside>
+
+		<aside>	
+			<img src="assets/img/geo.png" alt="иконка точки на карте навигации" width="40" height="40">
+			<p>
+				Адрес:С-Пб, Кировский р-н, ул. Возрождения д.35
+			</p>
+			<a href="mailto:kras-avtovo@yandex.ru">
+				E-mail: kras-avtovo@yandex.ru
+			</a>
+			
+		</aside>
+
+	</footer>
 	
 	
 </body>
