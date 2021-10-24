@@ -52,9 +52,11 @@
 	</header>
 	<main class="page-main">
 
-		<h2 class="page-main__title">СПЕКТР НАШИХ УСЛУГ:</h2>
+		<section class="service-item">
 
-		<article class="page-main__item service-item">
+		<h2 class="service-item__title">СПЕКТР НАШИХ УСЛУГ:</h2>
+
+		<article class="service-item__block">
 
 			<figure class="service-item__img">
 				<figcaption class="service-item__title">Ремонт элементов</figcaption>
@@ -62,7 +64,7 @@
 			</figure>
 
 			<ul class="service-item__list">
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>
 						→ Ремонт бампера, крыла, двери, боковин, стоек, 
 						порогов, крышек багажника и других элементов кузова авто;
@@ -72,7 +74,7 @@
 
 		</article>
 
-		<article class="page-main__item service-item">
+		<article class="service-item__block">
 
 			<figure class="service-item__img">
 				<figcaption class="service-item__title">Кузовной ремонт</figcaption>
@@ -81,26 +83,26 @@
 
 			<ul class="service-item__list">
 
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>→ Удаление вмятин;</p>
 				</li>
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>→ Устранение царапин, трещин, глубоких вмятин;</p>
 				</li>
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>
 						→ Выравнивание поверхности, грунтовка, 
 						подготовка под покраску;
 					</p>
 				</li>
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>→ Антикоррозийная обработка кузова;</p>
 				</li>
 			</ul>
 
 		</article>
 
-		<article class="page-main__item service-item">
+		<article class="service-item__block">
 
 			<figure class="service-item__img">
 				<figcaption class="service-item__title">Подбор цвета опытным колористом</figcaption>
@@ -108,7 +110,7 @@
 			</figure>
 
 			<ul class="service-item__list">
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>
 						→ Вы можете подъехать на вашем автомобиле или привезти образец 
 						необходимого цвета — и в течение 30 минут наши специалисты 
@@ -119,7 +121,7 @@
 			</ul>
 		</article>
 
-		<article class="page-main__item service-item">
+		<article class="service-item__block">
 
 			<figure class="service-item__img">
 				<figcaption class="service-item__title">Покраска</figcaption>
@@ -127,16 +129,16 @@
 			</figure>
 			
 			<ul class="service-item__list">
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>→ Полная покраска кузова автомобиля;</p>
 				</li>
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>→ Частичная покраска кузова автомобиля;</p>
 				</li>
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>→ Покраска отдельных элементов кузова;</p>
 				</li>
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p  >→ Устранение мелких дефектов(сколов,трещин 
 						лакокрасочного покрытия);</p>
 				</li>
@@ -144,14 +146,14 @@
 		
 		</article>
 
-		<article class="page-main__item service-item">
+		<article class="service-item__block">
 
 			<figure class="service-item__img">
 				<figcaption class="service-item__title">Полировка</figcaption>	
 				<img src="assets/img/5.png" alt="изображение полировальная машинка в работе" width="190" height="100">
 			</figure>
 			<ul class="service-item__list">
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>
 						→ Мы используем специальные полировачные средства. 
 						Основой служит воск и синтетические материалы. Полировка 
@@ -162,7 +164,7 @@
 			</ul>
 		</article>
 
-		<article class="page-main__item service-item">
+		<article class="service-item__block">
 
 			<figure class="service-item__img">
 				<figcaption class="service-item__title">Продажа ЛКМ, абразивных и полировальных кругов, и много другое</figcaption>
@@ -170,7 +172,7 @@
 			</figure>
 
 			<ul class="service-item__list">
-				<li class="service-item__list__description">
+				<li class="service-item__description">
 					<p>
 						→ В нашей лаборатории вы всегда можете приобрести любое 
 						необходимое вам количество краски. Минимальный заказ 
@@ -181,41 +183,42 @@
 				</li>
 			</ul>
 		</article>
-		
+
+		</section>
 	</main>
 
 	<footer class="page-footer" id="contacts">
 			
-		<section class="page-footer__contacts list-contacts">
+		<section class="list-contacts">
 
 			<div class="list-contacts__item">
 
-			<img class="list-contacts__item__ico" src="assets/img/bras.png" alt="иконка кисточки" width="40" height="40">
+			<img class="list-contacts__ico" src="assets/img/bras.png" alt="иконка кисточки" width="40" height="40">
 			
-			<p class="list-contacts__item__text">
+			<p class="list-contacts__text">
 				Кузовной ремонт, покраска, полировка:
 			</p>
-			<a class="list-contacts__item__link" href="tel:+79119538548">Тел: +7 911 953-85-48</a>
+			<a class="list-contacts__link" href="tel:+79119538548">Тел: +7 911 953-85-48</a>
 		
 			</div>
 
 			<div class="list-contacts__item">
 
-			<img class="list-contacts__item__ico" src="assets/img/paint.png" alt="иконка баночки краски" width="40" height="40">
+			<img class="list-contacts__ico" src="assets/img/paint.png" alt="иконка баночки краски" width="40" height="40">
 			
-			<p class="list-contacts__item__text">
+			<p class="list-contacts__text">
 				Подбор цвета, продажа ЛКМ и других материалов: 
 			</p>
 
-			<a class="list-contacts__item__link" href="tel:+79118419396">Тел: +7 911 841-93-96</a>
+			<a class="list-contacts__link" href="tel:+79118419396">Тел: +7 911 841-93-96</a>
 
 			</div>
 
 			<div class="list-contacts__item">
 
-			<p class="list-contacts__item__text">Адрес электронной почты:</p>
+			<p class="list-contacts__text">Адрес электронной почты:</p>
 			
-			<a class="list-contacts__item__link" href="mailto:kras-avtovo@yandex.ru">
+			<a class="list-contacts__link" href="mailto:kras-avtovo@yandex.ru">
 				E-mail: kras-avtovo@yandex.ru
 			</a>
 
@@ -223,12 +226,12 @@
 		
 			<div class="list-contacts__item">
 
-			<p class="list-contacts__item__text">
+			<p class="list-contacts__text">
 				Адрес: С-Пб, Кировский р-н, ул. Возрождения д.35
 			</p>
 
-			<a class="list-contacts__item__link" href="#">
-			<img class="list-contacts__item__ico" src="assets/img/geo.png" alt="иконка точки на карте навигации" width="40" height="40">
+			<a class="list-contacts__link" href="#">
+			<img class="list-contacts__ico" src="assets/img/geo.png" alt="иконка точки на карте навигации" width="40" height="40">
 			Карта!
 			</a>
 
@@ -236,9 +239,9 @@
 
 			<div class="list-contacts__item">
 
-			<img class="list-contacts__item__ico" src="assets/img/alarm.png" alt=" иконка будильника" width="40" height="40">
+			<img class="list-contacts__ico" src="assets/img/alarm.png" alt=" иконка будильника" width="40" height="40">
 			
-			<p class="list-contacts__item__text">
+			<p class="list-contacts__text">
 				Режим работы: 
 				<date>Пн-Пт:</date><time>09:00-19:00;</time>
 				<date>Сб:</date><time>09:00-18:00;</time>
@@ -248,8 +251,8 @@
 
 			<div class="list-contacts__item">
 
-				<p class="list-contacts__item__text">Мы в соцсетях!</p>
-				<a class="list-contacts__item__link" href="https://vk.com/club130015867">
+				<p class="list-contacts__text">Мы в соцсетях!</p>
+				<a class="list-contacts__link" href="https://vk.com/club130015867">
 					Vkontakte
 				</a>
 	
@@ -257,11 +260,11 @@
 
 		</section>
 
-		<aside class="page-footer__sidebar">
+		<aside class="sidebar">
 
-			<a class="page-footer__sidebar__link"  href="#top">
+			<a class="sidebar__link"  href="#top">
 				<span>Наверх</span>
-				<img class="page-footer__sidebar__img" src="assets/img/toUp.png" alt="стрелка возврата на вверх страницы" width="55" height="55">
+				<img class="sidebar__img" src="assets/img/toUp.png" alt="стрелка возврата на вверх страницы" width="55" height="55">
 			</a>	
 
 		</aside>
