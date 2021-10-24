@@ -32,7 +32,7 @@
 		</p>
 			
 		
-		<nav class="page-header__nav nav-top">
+		<nav class="page-header__nav nav-top" id="top">
 			
 			<img class="nav-top__icon" src="assets/img/menuico.png" alt="иконка основного меню" width="48" height="48">
 			
@@ -165,7 +165,7 @@
 		<article class="page-main__item service-item">
 
 			<figure class="service-item__img">
-				<figcaption class="service-item__title">Продажа ЛКМ, абразивных кругов, и много другое</figcaption>
+				<figcaption class="service-item__title">Продажа ЛКМ, абразивных и полировальных кругов, и много другое</figcaption>
 				<img src="assets/img/6.png" alt="изображение банок с красками" width="190" height="100">
 			</figure>
 
@@ -174,8 +174,8 @@
 					<p>
 						→ В нашей лаборатории вы всегда можете приобрести любое 
 						необходимое вам количество краски. Минимальный заказ 
-						составляет всего 10 грамм, а значит вам никогда не придется 
-						переплачивать за лишние материалы. Также Мы всегда будем рады 
+						составляет всего 10 грамм. Так же в наличии абразивные круги,пасты, 
+						полировальные, салфетки, ленты и другие материалы для авторемонта и ухода. Мы всегда будем рады 
 						предоставить приятную скидку;
 					</p>
 				</li>
@@ -186,44 +186,91 @@
 
 	<footer class="page-footer" id="contacts">
 			
-		<aside>
-			<img src="assets/img/bras.png" alt="иконка кисточки" width="40" height="40">
-			<p>
-				Кузовной ремонт, покраска, полировка
-			</p>
-			<a href="tel:+79119538548">Тел: +7 911 953-85-48</a>
-		</aside>
+		<section class="page-footer__contacts list-contacts">
 
-		<aside>
-			<img src="assets/img/paint.png" alt="иконка баночки краски" width="40" height="40">
-			<p>
-			Подбор цвета, продажа ЛКМ: 
-			</p>
-			<a href="tel:+79118419396">Тел: +7 911 841-93-96</a>
-		</aside>
+			<div class="list-contacts__item">
 
-		<aside>
-			<img src="assets/img/alarm.png" alt=" иконка будильника" width="40" height="40">
-			<p>
-				Режим работы: 
-				<date>Пн-Пт:</date><time>09:00-19:00;</time>
-				<date>Сб:</date><time>09:00-18:00</time>
+			<img class="list-contacts__item__ico" src="assets/img/bras.png" alt="иконка кисточки" width="40" height="40">
+			
+			<p class="list-contacts__item__text">
+				Кузовной ремонт, покраска, полировка:
 			</p>
-		</aside>
+			<a class="list-contacts__item__link" href="tel:+79119538548">Тел: +7 911 953-85-48</a>
+		
+			</div>
 
-		<aside>	
-			<img src="assets/img/geo.png" alt="иконка точки на карте навигации" width="40" height="40">
-			<p>
-				Адрес:С-Пб, Кировский р-н, ул. Возрождения д.35
+			<div class="list-contacts__item">
+
+			<img class="list-contacts__item__ico" src="assets/img/paint.png" alt="иконка баночки краски" width="40" height="40">
+			
+			<p class="list-contacts__item__text">
+				Подбор цвета, продажа ЛКМ и других материалов: 
 			</p>
-			<a href="mailto:kras-avtovo@yandex.ru">
+
+			<a class="list-contacts__item__link" href="tel:+79118419396">Тел: +7 911 841-93-96</a>
+
+			</div>
+
+			<div class="list-contacts__item">
+
+			<p class="list-contacts__item__text">Адрес электронной почты:</p>
+			
+			<a class="list-contacts__item__link" href="mailto:kras-avtovo@yandex.ru">
 				E-mail: kras-avtovo@yandex.ru
 			</a>
+
+			</div>
+		
+			<div class="list-contacts__item">
+
+			<p class="list-contacts__item__text">
+				Адрес: С-Пб, Кировский р-н, ул. Возрождения д.35
+			</p>
+
+			<a class="list-contacts__item__link" href="#">
+			<img class="list-contacts__item__ico" src="assets/img/geo.png" alt="иконка точки на карте навигации" width="40" height="40">
+			Карта!
+			</a>
+
+			</div>
+
+			<div class="list-contacts__item">
+
+			<img class="list-contacts__item__ico" src="assets/img/alarm.png" alt=" иконка будильника" width="40" height="40">
 			
+			<p class="list-contacts__item__text">
+				Режим работы: 
+				<date>Пн-Пт:</date><time>09:00-19:00;</time>
+				<date>Сб:</date><time>09:00-18:00;</time>
+			</p>
+
+			</div>
+
+			<div class="list-contacts__item">
+
+				<p class="list-contacts__item__text">Мы в соцсетях!</p>
+				<a class="list-contacts__item__link" href="https://vk.com/club130015867">
+					Vkontakte
+				</a>
+	
+			</div>
+
+		</section>
+
+		<aside class="page-footer__sidebar">
+
+			<a class="page-footer__sidebar__link"  href="#top">
+				<span>Наверх</span>
+				<img class="page-footer__sidebar__img" src="assets/img/toUp.png" alt="стрелка возврата на вверх страницы" width="55" height="55">
+			</a>	
+
 		</aside>
 
 	</footer>
-	
-	
+
+	<section class="modal-map" style="display: none;">
+		<h2>Как к нам проехать</h2>
+	</section>
+
 </body>
 </html>
