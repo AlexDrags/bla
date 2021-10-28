@@ -1,0 +1,21 @@
+.page-header__title {
+  line-height: 20px;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 15px;
+}
+.page-header__logo {
+  vertical-align: middle;
+}
+.service-item__head-text {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin: 0;
+  color: antiquewhite;
+}
+.service-item__title {
+  font-size: 30px;
+  vertical-align: baseline;
+  color: #4d594d;
+}

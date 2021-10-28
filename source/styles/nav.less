@@ -1,0 +1,36 @@
+.nav-top__list {
+  display: flex;
+}
+
+.nav-top__list__item {
+  background-color: #8fa38f;
+  box-sizing: border-box;
+  min-width: 100px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+
+  .nav-top__link {
+    align-self: center;
+    padding: 16px;
+
+    &:hover {
+      background-color: #4d594d;
+      color:antiquewhite;
+    }
+  }
+}
+
+
+.nav-top__list__item--curent {
+  background-color: #4d594d;
+
+  & .nav-top__link {
+    color:antiquewhite;
+  }
+}
+
+.sidebar {
+  text-align: right;
+}
+
